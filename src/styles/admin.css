@@ -1,0 +1,18 @@
+.admin-container {
+  display: flex;
+}
+.products {
+  flex: 2;
+}
+.coupons {
+  flex: 1;
+}
+
+.coupons .form label {
+  display: inline-block;
+  width: 90%;
+}
+.coupons .form input {
+  display: inline-block;
+  width: 90%;
+}

@@ -1,0 +1,55 @@
+.home {
+  min-width: 100%;
+  min-height: 800px;
+}
+.mainContainer {
+  display: flex;
+  align-content: flex-end;
+  width: 100%;
+  /* padding-right: 100px; */
+}
+.wrapperContainer {
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+.wrapper {
+  display: flex;
+  height: 700px;
+  width: 180px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.wrapper img {
+  height: 700px;
+  zoom: 80%;
+}
+.odd {
+  margin-bottom: 150px;
+  padding-top: 30px;
+}
+.even {
+  margin-top: 200px;
+  padding-bottom: 30px;
+}
+/*  */
+/* INDIVIDUAL STYLE  */
+/*  */
+
+.cat-six img {
+  padding-right: 110px;
+}
+.ten {
+  margin-top: 100px;
+  width: 200px;
+  /* margin: none;
+  padding: none; */
+}
+.cat-ten img {
+  /* position: center right; */
+  height: 1000px;
+  padding-left: 300px;
+}

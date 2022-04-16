@@ -1,0 +1,160 @@
+@import url(//db.onlinewebfonts.com/c/34c5cb84c0faa7bd18cbba97279df1ca?family=Sinkin+Sans+800+Black);
+
+@font-face {
+  font-family: "Sinkin Sans 800 Black";
+  src: url("//db.onlinewebfonts.com/t/34c5cb84c0faa7bd18cbba97279df1ca.eot");
+  src: url("//db.onlinewebfonts.com/t/34c5cb84c0faa7bd18cbba97279df1ca.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/34c5cb84c0faa7bd18cbba97279df1ca.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/34c5cb84c0faa7bd18cbba97279df1ca.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/34c5cb84c0faa7bd18cbba97279df1ca.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/34c5cb84c0faa7bd18cbba97279df1ca.svg#Sinkin Sans 800 Black")
+      format("svg");
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff4ee;
+}
+
+/* nav {
+  height: 85px;
+  width: 100%;
+  background-color: #811f19;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+#logo {
+  height: 50px;
+  width: 50px;
+}
+
+.company {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+/* MENU */
+
+#primary_menu {
+  margin-left: 12%;
+}
+
+#primary_menu li,
+#secondary_menu li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+li a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+}
+
+#primary_menu li:not(:last-child):after,
+#secondary_menu li:not(:last-child):after {
+  content: " | ";
+  font-size: 1.3rem;
+  color: white;
+  margin: 0 10px;
+}
+
+#search {
+  height: 35px;
+  width: 200px;
+  margin-right: 50px;
+  border: none;
+}
+
+header {
+  height: 450px;
+  width: 100%;
+  background: url(./images/headerbg.jpg) no-repeat center center;
+  border-bottom: 20px solid #811f19;
+  display: flex;
+  align-items: center;
+}
+
+#hero {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* opacity: 0.8; */
+  padding: 2% 2% 2% 50px;
+}
+
+#greybox {
+  height: 130px;
+  background-color: rgb(197, 197, 197);
+}
+
+button {
+  background-color: #0069cb;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-top: 25px;
+  padding: 1% 4%;
+}
+
+/* 
+#card_big {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+} */
+
+/* #span2 {
+  grid-column: 1 / span 2;
+} */
+
+/* 
+
+#textContainer {
+  margin-top: 7%;
+  padding: 0px 45px 45px 45px;
+}
+
+#textContainer button {
+  width: 45%;
+}
+
+#textContainer p:last-of-type {
+  margin-top: 3%;
+} */
+
+.cardSmall button {
+  width: 100%;
+}
+
+footer {
+  background-color: #811f19;
+  margin-top: 7%;
+  padding: 1% 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#secondary_menu {
+  margin-right: 50px;
+}

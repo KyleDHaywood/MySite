@@ -1,0 +1,19 @@
+.catalog {
+  background-color: #d3d3d3;
+  min-height: 300px;
+  width: 100%;
+}
+
+.catalog .productList {
+  justify-content: space-around;
+}
+h2 {
+  text-align: center;
+}
+.main_grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 110px;
+  margin: 45px auto;
+}

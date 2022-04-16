@@ -1,0 +1,17 @@
+.Hero {
+  display: block;
+}
+
+#ad-container {
+  display: block;
+  height: 250px;
+  width: 100%;
+  position: absolute center center;
+  overflow: hidden;
+}
+#ad-container img {
+  border: 0;
+
+  width: 100%;
+  z-index: 0;
+}

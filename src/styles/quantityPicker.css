@@ -1,0 +1,13 @@
+.quantityPicker {
+  /* display: flex; */
+  display: inline-flex;
+}
+
+.quantityPicker .btn {
+  width: 25px;
+  height: 25px;
+}
+
+.quantityPicker #quanityIndicator {
+  border: solid 1px grey;
+}

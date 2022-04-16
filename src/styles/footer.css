@@ -1,0 +1,8 @@
+.footer {
+  /* color: white; */
+}
+.footer a {
+  display: inline-flex;
+  font-size: 23px;
+  text-decoration: none;
+}

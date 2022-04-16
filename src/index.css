@@ -1,0 +1,64 @@
+@import url(//db.onlinewebfonts.com/c/34c5cb84c0faa7bd18cbba97279df1ca?family=Sinkin+Sans+800+Black);
+@font-face {
+  font-family: "Sinkin Sans 800 Black";
+  src: url("//db.onlinewebfonts.com/t/34c5cb84c0faa7bd18cbba97279df1ca.eot");
+  src: url("//db.onlinewebfonts.com/t/34c5cb84c0faa7bd18cbba97279df1ca.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/34c5cb84c0faa7bd18cbba97279df1ca.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/34c5cb84c0faa7bd18cbba97279df1ca.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/34c5cb84c0faa7bd18cbba97279df1ca.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/34c5cb84c0faa7bd18cbba97279df1ca.svg#Sinkin Sans 800 Black")
+      format("svg");
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  font-family: "Sinkin Sans 800 Black";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-family: "Sinkin Sans 800 Black";
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+
+h2 {
+  color: #811f19;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+h3 {
+  color: #811f19;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin: 30px 0;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 2;
+}

@@ -1,0 +1,60 @@
+::after {
+  border: none;
+  padding: none;
+  margin: none;
+}
+
+nav {
+  height: 85px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  padding: none;
+  margin: none;
+  align-items: center;
+}
+.bell {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex: 1;
+}
+.news {
+  display: flex;
+  font-size: 34px;
+  text-decoration: none;
+  color: black;
+  top: 12px;
+  left: 12px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  flex: 5;
+  justify-content: center;
+}
+
+.aboutSign {
+  font-size: 34px;
+  text-decoration: none;
+  color: black;
+}
+
+.diceIcon {
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  top: 12px;
+  left: 12px;
+}
+.diceAndCart {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+}

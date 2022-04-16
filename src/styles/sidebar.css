@@ -1,0 +1,10 @@
+.sidebar {
+  /* display: flex; */
+  background-color: #212529;
+  margin-top: -2px;
+  margin-bottom: -2px;
+  margin-left: none;
+  margin-right: none;
+  padding: none;
+  width: 8%;
+}
